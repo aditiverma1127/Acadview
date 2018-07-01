@@ -9,13 +9,11 @@ while True:
   print ("INFINITE")
 
 #3
-#Defining an empty list
 numbers=[]
 for i in range(0,5):
   num=int(input("Enter the number"))
   numbers.append(num)
 print("The list is",numbers)
-#defining an empty list for squares
   
 squares=[]
 for num in numbers:
@@ -25,7 +23,7 @@ print("The list of squares is",squares)
 
 
 #4
-l=[1,'abc',2.0,2,'def',3.0]
+l=[1,'hi',2.0,2,'def',3.0]
 for i in l:
   print("The type of",i,"is",str(type(i)))
 
